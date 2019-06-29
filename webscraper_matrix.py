@@ -12,7 +12,7 @@ from os import walk
 
 now = time.strftime("%Y%m%d")
 #set time to save finished file to the flist_date.txt
-hclass="postMessage"
+hclass="{html target}"
 doLink="{domain url}"
 aLink='{archive url}'
 presponse= requests.get(aLink, timeout=5)
